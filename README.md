@@ -1,5 +1,10 @@
 # PointCloudRegistrationUsingDistanceGeometry
-This C++ API and GUI are implemented based on Methods for Calibration and Registration of Point Cloud Data Using Distance Geometry by Dr. Zhenxiang Jian
+C++ API and GUI for Point Cloud Registration Using Distance Geometry
+
+## Background
+The point cloud registration method in this tool is proposed and implemented by Dr. Jian, Zhenxiang. University of California, Davis
+
+The thesis can be found: http://search.proquest.com/docview/1832932748?pq-origsite=gscholar
 
 Dependencies:
 - Qt5
@@ -7,3 +12,17 @@ Dependencies:
 - OpenGL
 - GLUT
 - Eigen
+
+To compile:
+------
+mkdir build
+
+cd build
+
+cmake ../PCRUDG-0.0.2/
+
+To run:
+------
+./PCRUDG
+
+
