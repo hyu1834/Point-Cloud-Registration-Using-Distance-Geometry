@@ -16,7 +16,7 @@ Linkedin: https://www.linkedin.com/in/hiuhong-yu-13220187/
 ## Background
 The point cloud registration method in this tool is proposed and implemented by Dr. Jian, Zhenxiang, University of California, Davis and Hiu Hong Yu, University of California, Davis.
 
-The thesis can be found: http://search.proquest.com/docview/1832932748?pq-origsite=gscholar
+The thesis can be found: http://search.proquest.com/docview/1832932748?pq-origsite=gscholar<br/>
 
 Dependencies:
 - Qt5
@@ -33,7 +33,7 @@ cd build
 
 cmake ../PCRUDG-0.0.2/
 
-To run:
+To execute:
 ------
 ./PCRUDG
 
