@@ -385,12 +385,7 @@ class DistanceGeometryRegistration : Registration<PointT>	{
 			// to save computational power
 			Registration<PointT>::transformationMatrix = Registration<PointT>::transformationMatrix * inverseRDM;
 			// If transformationMatrix is NaN matrix, then transformationMatrix computation FAILED
-			if(isNanMatrix(Registration<PointT>::transformationMatrix))	{
-				return false;
-			}
-			else 	{
-				return true;
-			}
+			return !isNanMatrix(Registration<PointT>::transformationMatrix);
 		}
 
 		bool pointCloudTransformation(typename pcl::PointCloud<PointT>::Ptr pointCloud)	{
