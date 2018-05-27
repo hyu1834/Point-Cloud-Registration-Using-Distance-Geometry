@@ -21,9 +21,6 @@ The thesis can be found: http://search.proquest.com/docview/1832932748?pq-origsi
 ## Registration Methods
 - Point Cloud Registration Using Distance Geometry
   - C++ API and GUI
-- Bisector Point Cloud Registration
-  - C++ API
-
 
 ## Dependencies:
 - Qt5
